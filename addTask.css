@@ -1,0 +1,78 @@
+body{
+    background-image:url('./svg/layered-waves-haikei\ \(1\).svg');
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-content:center;
+  margin-top:10%;
+}
+.input{
+    width:350px;
+height:50px;
+font-size:20px;
+border-style:solid;
+border-color:white;
+border-radius:10px;
+font-family:monospace;
+
+}
+h1{
+    font-family:monospace;
+    font-size:30px;
+    color:orange;
+    border-style:solid;
+    border-color:white;
+    background-color:black;
+    text-align:center;
+    border-radius:10px;
+    border-width:1px;
+}
+
+.button-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:20px;
+}
+button{
+    font-size:20px;
+    width:100px;
+    height:40px;
+    background-color:black;
+    color:chartreuse;
+    margin-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    transition:0.1s;
+    border-radius:10px;
+    border-color:white;
+    
+}
+h3{
+    border-color:black;
+    width:100%;
+    border-style:solid;
+    border-radius:10px;
+    height:50px;
+    font-size:25px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+    padding-left:10px;
+    background-color:white;
+    color:black;
+    font-family:monospace;
+    font-weight:50;
+    
+}
+button:hover{
+    transform:scale(1.1)
+}
+[class^='fa-']{
+    height:100vh;
+}

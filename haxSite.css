@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+   font-family: 'Poppins', sans-serif;
+    color:white;
+}
+body{
+    background-color: black;
+}
+.container{
+    border-style:solid;
+    border-color:transparent;
+    width:87%;
+    margin:auto;
+    height:46.7rem;
+    margin-top:1%;
+    border-radius:2%;
+    background-color: rgb(28, 27, 27);
+}
+.section1{
+    margin-top:3%;
+display:flex;
+justify-content:space-around;
+height:10%;
+align-content:center;
+align-items:center;
+}
+.small{
+    display:flex;
+}
+.hax{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:3.4rem;
+}
+.section2{
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+    margin-top:3%;
+    height:50%;
+    justify-content:space-around;
+    font-weight:600;
+}
+.paragraph{
+    display:flex;
+    width:57%;
+    justify-content:space-between;
+    height:20%;
+    align-items:center;
+    font-weight:400;
+    line-height:1.5rem;
+}
+.small{
+    display:flex;
+    justify-content:space-between;
+    width:38%;
+}
+.login-stuff{
+    display:flex;
+    width:20%;
+    height:70%;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.login-stuff button{
+    height:100%;
+    width:40%;
+    border-radius:1.875rem;
+    background-color:rgb(247, 225, 25);
+}
+.work-with{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3.75rem;
+    font-weight:bold;
+}
+.paragraph button{
+    height:100%;
+    width:30%;
+    border-radius:3.125rem;
+    font-size:1.125rem;
+    background-color: white;
+}
+button{
+    color:black;
+    transition:0.1s;
+    font-weight:800;
+}
+.section3{
+   display:flex;
+   justify-content:center;  
+}
+.section3 img{
+    margin-top:5.625rem;
+    height:6.25rem;
+    width:6.29rem;
+    border-radius:10%;
+}
+button:hover{
+    transform:scale(1.1);
+}
+.fa-twitter{
+    font-size:1.5625rem;
+}
+a{
+    text-decoration:none;
+}

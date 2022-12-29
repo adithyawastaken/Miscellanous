@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+}
+.section1{
+    width:48vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    place-content:center;
+    background-color: orange;
+}
+img{
+    margin:auto;
+    width:70%;
+    height:60%;
+}
+.idk{
+    text-align:center;
+    color:white;
+    font-weight:700;
+    margin-bottom:8%;
+}
+.logo-name{
+    padding:1.875rem;
+    font-weight:500;
+    font-size:3.125rem;
+    margin-left:4%;
+    letter-spacing:0.3125rem;
+    color:white;
+}
+button{
+    width:200px;
+    height:47px;
+    display:flex;
+
+}
+.section2{
+    margin-left:2%;
+display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+align-content:center;
+line-height:1.875rem;
+margin-top:3%;
+
+}
+.buttons{
+    margin:0px;
+    width:80%;
+    display:flex;
+gap:10%;
+}
+.button-image{
+    height:2.2rem;
+    width:2.3rem;
+margin-left:20%;
+}
+ button{
+    cursor: pointer;
+    border-color:grey;
+border-radius:0.625rem;
+margin:auto;
+display:flex;
+flex-wrap:wrap;
+text-align:center;
+align-content:center;
+font-size:0.9375rem;
+box-shadow:1px 1px 3px 1px grey;
+}
+span{
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.boomr-stuff{
+    display:flex;
+    flex-direction:column;
+    width:27%;
+}
+.get{
+    font-size:2.1875rem;
+    font-weight:bolder;
+}
+.sec-1{
+    width:52vw;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+a{
+    color:orange;
+    text-decoration:none;
+}
+
+.sec-2{
+    height:50vh;
+    flex-direction:column;
+    font-weight:bolder;
+}
+.idek{
+    text-align:center;
+    margin-right:44%;
+}
+ input{
+    box-shadow:1px 1px 1px 1px grey;
+    padding-left:2.5rem;
+    width:80%;
+    height:10%;
+    border-radius:0.5625rem;
+    font-size:0.9375rem;
+    
+}
+#submit{
+    margin-right:30%;
+    background-color: rgb(227, 84, 94);
+    color:white;
+    display:flex;
+    justify-content:center;
+    width:60%;
+    box-shadow:0px 0px 0px 0px white;
+    transition:0.2s;
+}
+label{
+    padding-left:0.3125rem;
+    font-weight:bold;
+}
+[class^='fa']{
+    font-size:1.25rem;
+    position:absolute;
+    padding:10px;
+}
+#submit:active{
+    border-color:black;
+    border-width:0.1875rem;
+}
+#submit:hover{
+    transform:scale(1.1);
+}
+[class^='button-']{
+    background-color:white;
+}
+.button-2{
+    background-color: rgb(66 103 178);
+    color:white;
+}
+.facebook{
+background-color:rgb(66 103 178);
+height:2.5rem;
+width:2.5rem;
+}
+input:focus{
+    box-shadow: 0px 0px 0px 0px none;
+ border-color:orange;
+ border-width:0.25rem;
+ 
+}
+
+@media(max-width:1025px){
+.section1{
+    border-style:solid;
+height:100vh;
+}
+}

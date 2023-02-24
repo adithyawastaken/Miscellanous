@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-image:url('./images/wp6044343-pc-dark-anime-wallpapers.jpg');
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    display:block;
+}
+#logo{
+    height:160px;
+    margin-right:8%;
+
+}
+.section1{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.innerSection{
+    display:flex;
+    justify-content:space-between;
+height:6.25rem;
+width:50rem;
+align-items:center;
+font-size:1.25rem;
+font-weight:900;
+padding:1.875rem;
+transition:0.5s;
+}
+.fa-bars{
+  color:white;
+    
+}
+.contact{
+padding:0.875rem;
+padding-left:1.25rem;
+padding-right:1.25rem;
+border-radius:3.125rem;
+background-image:linear-gradient(to right, #3ad6af, #39a5e3);
+transition:0.4s;
+}
+.contact:hover{
+    transform:scale(1.05);
+}
+.section2{
+    color:white;
+    margin-top:2%;
+    margin-left:9%;
+    font-family: 'Montserrat', sans-serif;
+display:flex;
+flex-direction:column;
+
+}
+h1{
+    font-size:4.375rem;
+    font-weight:bolder;
+}
+h3{
+    margin-top:2%;
+    font-size:2.5rem;
+}
+.x{
+color:lightblue;
+text-decoration:underline;
+transition:10s;
+}
+.x:hover{
+    text-decoration:none;
+}
+button{
+margin-top:5%;
+width:26%;
+background-color: black;
+color:white;
+border-style:solid;
+border-color:#3ad6af;
+border-radius:1.875rem;
+border-width:0.1875rem;
+height:3.125rem;
+font-size:1.125rem;
+font-weight:bolder;
+padding:0.3125rem;
+transition:0.5s;
+}
+button:hover{
+    transform:scale(1.06);
+    cursor:pointer;
+}
+.innerSection a:hover{
+text-decoration:underline
+}
+.container-2{
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    transition:1s;
+}
+.container-2 img{
+    height:9.375rem;
+}
+.container-2 .section1{
+    display:flex;
+flex-direction:column;
+align-items:flex-start;
+margin-left:5%;
+height:43.75rem;
+justify-content:flex-start;
+width:27rem;
+transition:0.6s;
+}
+.innersec{
+    display:flex;
+    flex-direction:column;
+    width:25rem;
+    height:25rem;
+    justify-content:space-around;
+    font-size:1.25rem;
+    font-weight:bold;
+}
+.container-2 .section2{
+    margin-top:9%;
+    display:flex;
+    flex-direction:column;
+    height:450px;
+    width:500px;
+font-size:3.125rem;
+justify-content:space-around;
+transition:0.9s;
+}
+.container-2 a:hover{
+    color:#03fcad;
+}
+.fa-circle-xmark{
+    float:right;
+    color:white;
+    font-size:3.125rem;
+    margin-left:15%;
+    margin-top:3%;
+    height:3.125rem;
+    transition:0.1s;
+}
+.fa-circle-xmark:hover{
+    font-weight:lighter;
+}
+.container-2 .section2 a:hover{
+transform:scale(1.2);
+}
+.invisible{
+    display:none;
+}
+.fa-bars{
+    transition:0.2s;
+}
+.fa-bars:hover{
+    transform:scale(1.4)
+}

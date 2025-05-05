@@ -1,1 +1,1 @@
-the other random bs ive made
+the other random shi ive made

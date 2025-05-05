@@ -1,2 +1,1 @@
-# Miscellanous
-Just in case I lose my files
+the other random bs ive made
